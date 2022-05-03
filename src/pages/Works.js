@@ -1,5 +1,5 @@
 import initMagicWall from "../assets/vendor/magicwall";
-import initColorBox from "../assets/vendor/jquery.colorbox";
+import initColorBox from "../assets/vendor/colorbox";
 import React, { useEffect, useRef, useState } from "react";
 import jQuery from "jquery";
 import MagicWall from "../components/MagicWall";
