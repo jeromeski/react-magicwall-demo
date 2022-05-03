@@ -1,28 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import "./App.css";
-// import initMagicWall from "./assets/vendor/magicwall";
-// import initColorBox from "./assets/vendor/jquery.colorbox";
-import React, { useEffect, useRef, useState } from "react";
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
-import Works from './pages/Works';
-// import jQuery from "jquery";
-// import mono from "./assets/wp-content/uploads/2021/11/MONO-Tlumaczenia-ktore-uwalniaja-mozliwosci-o-nas-Biuro-tlumaczen-MONO-Torun.png";
-// import club from "./assets/wp-content/uploads/2021/11/https-club-silversurfers-com-wp-content-themes-club-2B-img-logo-svg.png";
-// import pobrane3 from "./assets/wp-content/uploads/2021/11/pobrane-3.jpg";
-// import pobrane1 from "./assets/wp-content/uploads/2021/11/pobrane-1.jpg";
-// import jane from "./assets/wp-content/uploads/2021/11/Home-Jane-Anson-Inside-Bordeaux-janeanson-com.png";
-// import pobrane from "./assets/wp-content/uploads/2021/11/pobrane.jpg";
-// import pobrane2 from "./assets/wp-content/uploads/2021/11/pobrane-2.jpg";
-// import MagicWall from "./components/MagicWall";
 
-// import mono from "../public/wp-content/uploads/2021/11/MONO-Tlumaczenia-ktore-uwalniaja-mozliwosci-o-nas-Biuro-tlumaczen-MONO-Torun.png";
-// import club from "../public/wp-content/uploads/2021/11/https-club-silversurfers-com-wp-content-themes-club-2B-img-logo-svg.png";
-// import pobrane3 from "../public/wp-content/uploads/2021/11/pobrane-3.jpg";
-// import pobrane1 from "../public/wp-content/uploads/2021/11/pobrane-1.jpg";
-// import jane from "../public/wp-content/uploads/2021/11/Home-Jane-Anson-Inside-Bordeaux-janeanson-com.png";
-// import pobrane from "../public/wp-content/uploads/2021/11/pobrane.jpg";
-// import pobrane2 from "../public/wp-content/uploads/2021/11/pobrane-2.jpg";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Works from "./pages/Works";
+
 
 function App() {
 	return (
